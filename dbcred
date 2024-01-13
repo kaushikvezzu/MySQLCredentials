@@ -1,6 +1,6 @@
-spring.datasource.dburl = jdbc:mysql://localhost:3306/airport
-spring.datasource.dbusername=root
-spring.datasource.dbpassword=Admin@123
-spring.jpa.hibernate.dbddl-auto=validate
+dburl = jdbc:mysql://localhost:3306/airport
+dbusername=root
+dbpassword=Admin@123
+dbddl-auto=validate
 
-spring.mvc.pathmatch.dbmatching-strategy=ANT_PATH_MATCHER
+dbmatching-strategy=ANT_PATH_MATCHER
